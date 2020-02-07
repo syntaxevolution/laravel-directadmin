@@ -96,13 +96,13 @@ class LaravelDirectAdmin
     private function extractCommand($method, $command, $arguments)
     {
         $this->connection->set_method(strtoupper($method));
-        
+
         if($command == "SSL"){
             return $this->request(
                 "SSL",
                 $arguments
             );
-        }else {
+        }else{
             return $this->request(
                 $this->camelToSnake($command),
                 $arguments
