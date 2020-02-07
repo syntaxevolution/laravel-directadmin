@@ -1,4 +1,4 @@
-# Laravel 5 DirectAdmin API wrapper
+# Laravel 6 DirectAdmin API wrapper
 [![Latest Version](https://img.shields.io/github/release/solitweb/laravel-directadmin.svg?style=flat-square)](https://github.com/laravel-solitweb/directadmin/releases)
 [![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE.md)
 [![Build Status](https://img.shields.io/travis/solitweb/laravel-directadmin/master.svg?style=flat-square)](https://travis-ci.org/solitweb/laravel-directadmin)
@@ -9,12 +9,12 @@
 You can install this package via Composer using:
 
 ```bash
-composer require solitweb/laravel-directadmin
+composer require syntaxevolution/laravel-directadmin
 ```
 
-Laravel 5.5 uses Package Auto-Discovery, so doesn't require you to manually add the ServiceProvider.
+Laravel 6 uses Package Auto-Discovery, so doesn't require you to manually add the ServiceProvider.
 
-## Laravel 5.5+:
+## Laravel 6+:
 
 If you don't use auto-discovery, add the ServiceProvider to the providers array in config/app.php
 
@@ -32,14 +32,14 @@ Optionally, register the facade:
 // config/app.php
 'aliases' => [
     ...
-    'DirectAdmin' => Solitweb\LaravelDirectAdmin\LaravelDirectAdminFacade::class,
+    'DirectAdmin' => SyntaxEvolution\LaravelDirectAdmin\LaravelDirectAdminFacade::class,
 ];
 ```
 
 To publish the config file to app/config/laravel-directadmin.php run:
 
 ```bash
-php artisan vendor:publish --provider="Solitweb\LaravelDirectAdmin\LaravelDirectAdminServiceProvider"
+php artisan vendor:publish --provider="SyntaxEvolution\LaravelDirectAdmin\LaravelDirectAdminServiceProvider"
 ```
 
 ## Usage
