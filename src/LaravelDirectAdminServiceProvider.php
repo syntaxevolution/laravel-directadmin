@@ -1,8 +1,8 @@
 <?php
 
-namespace Solitweb\LaravelDirectAdmin;
+namespace SyntaxEvolution\LaravelDirectAdmin;
 
-use Solitweb\DirectAdmin\DirectAdmin as DAConnection;
+use SyntaxEvolution\DirectAdmin\DirectAdmin as DAConnection;
 use Illuminate\Support\ServiceProvider;
 
 class LaravelDirectAdminServiceProvider extends ServiceProvider

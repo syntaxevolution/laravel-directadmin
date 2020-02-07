@@ -1,8 +1,8 @@
 <?php
 
-namespace Solitweb\LaravelDirectAdmin;
+namespace SyntaxEvolution\LaravelDirectAdmin;
 
-use Solitweb\DirectAdmin\DirectAdmin;
+use SyntaxEvolution\DirectAdmin\DirectAdmin;
 
 class LaravelDirectAdmin
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace Solitweb\LaravelDirectAdmin;
+namespace SyntaxEvolution\LaravelDirectAdmin;
 
 use Illuminate\Support\Facades\Facade;
 
