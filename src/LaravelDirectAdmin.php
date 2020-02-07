@@ -96,8 +96,7 @@ class LaravelDirectAdmin
     private function extractCommand($method, $command, $arguments)
     {
         $this->connection->set_method(strtoupper($method));
-
-        dd($command);
+        
         if($command == "SSL"){
             return $this->request(
                 "SSL",
