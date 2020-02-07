@@ -22,7 +22,7 @@ If you don't use auto-discovery, add the ServiceProvider to the providers array 
 // config/app.php
 'providers' => [
     ...
-    Solitweb\LaravelDirectAdmin\LaravelDirectAdminServiceProvider::class,
+    SyntaxEvolution\LaravelDirectAdmin\LaravelDirectAdminServiceProvider::class,
 ];
 ```
 
