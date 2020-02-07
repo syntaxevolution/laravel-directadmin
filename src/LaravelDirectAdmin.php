@@ -2,7 +2,7 @@
 
 namespace SyntaxEvolution\LaravelDirectAdmin;
 
-use SyntaxEvolution\DirectAdmin\DirectAdmin;
+use Solitweb\DirectAdmin\DirectAdmin;
 
 class LaravelDirectAdmin
 {

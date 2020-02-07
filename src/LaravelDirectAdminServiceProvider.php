@@ -2,7 +2,7 @@
 
 namespace SyntaxEvolution\LaravelDirectAdmin;
 
-use SyntaxEvolution\DirectAdmin\DirectAdmin as DAConnection;
+use Solitweb\DirectAdmin\DirectAdmin as DAConnection;
 use Illuminate\Support\ServiceProvider;
 
 class LaravelDirectAdminServiceProvider extends ServiceProvider
