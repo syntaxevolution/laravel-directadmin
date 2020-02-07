@@ -1,24 +1,24 @@
 {
-    "name": "solitweb/laravel-directadmin",
-    "description": "Laravel 5 DirectAdmin API wrapper",
+    "name": "syntaxevolution/laravel-directadmin",
+    "description": "Laravel 6 DirectAdmin API wrapper",
     "keywords": [
-        "solitweb",
+        "syntaxevolution",
         "laravel",
         "directadmin"
     ],
-    "homepage": "https://github.com/solitweb/laravel-directadmin",
+    "homepage": "https://github.com/syntaxevolution/laravel-directadmin",
     "license": "MIT",
     "authors": [
         {
-            "name": "Stijn Vanouplines",
-            "email": "stijn@solitweb.be",
-            "homepage": "https://solitweb.be",
+            "name": "Topher L.",
+            "email": "topher@syntaxevolution.com",
+            "homepage": "https://www.syntaxevolution.com",
             "role": "Developer"
         }
     ],
     "require": {
-        "php": "~5.6|~7.0|~7.1|~7.2",
-        "illuminate/support": "~5.1.0|~5.2.0|~5.3.0|~5.4.0|~5.5.0|~5.6.0|~5.8.0|~6.4.0|~6.6.0",
+        "php": "~7.1|~7.2|~7.3|~7.4",
+        "illuminate/support": "^6.0|^7.0",
         "solitweb/directadmin": "^3.0.1"
     },
     "require-dev": {
@@ -27,21 +27,21 @@
     },
     "autoload": {
         "psr-4": {
-            "Solitweb\\LaravelDirectAdmin\\": "src/"
+            "SyntaxEvolution\\LaravelDirectAdmin\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Solitweb\\LaravelDirectAdmin\\Test\\": "tests"
+            "SyntaxEvolution\\LaravelDirectAdmin\\Test\\": "tests"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Solitweb\\LaravelDirectAdmin\\LaravelDirectAdminServiceProvider"
+                "SyntaxEvolution\\LaravelDirectAdmin\\LaravelDirectAdminServiceProvider"
             ],
             "aliases": {
-                "DirectAdmin": "Solitweb\\LaravelDirectAdmin\\LaravelDirectAdminFacade"
+                "DirectAdmin": "SyntaxEvolution\\LaravelDirectAdmin\\LaravelDirectAdminFacade"
             }
         }
     }
