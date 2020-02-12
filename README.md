@@ -1,8 +1,8 @@
 # Laravel 6 DirectAdmin API wrapper
-[![Latest Version](https://img.shields.io/github/release/solitweb/laravel-directadmin.svg?style=flat-square)](https://github.com/laravel-solitweb/directadmin/releases)
+[![Latest Version](https://img.shields.io/github/release/syntaxevolution/laravel-directadmin.svg?style=flat-square)](https://github.com/syntaxevolution/directadmin/releases)
 [![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE.md)
-[![Build Status](https://img.shields.io/travis/solitweb/laravel-directadmin/master.svg?style=flat-square)](https://travis-ci.org/solitweb/laravel-directadmin)
-[![Total Downloads](https://img.shields.io/packagist/dt/solitweb/laravel-directadmin.svg?style=flat-square)](https://packagist.org/packages/solitweb/laravel-directadmin)
+[![Build Status](https://img.shields.io/travis/syntaxevolution/laravel-directadmin/master.svg?style=flat-square)](https://travis-ci.org/solitweb/laravel-directadmin)
+[![Total Downloads](https://img.shields.io/packagist/dt/syntaxevolution/laravel-directadmin.svg?style=flat-square)](https://packagist.org/packages/syntaxevolution/laravel-directadmin)
 
 ## Installation
 
